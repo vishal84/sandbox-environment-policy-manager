@@ -12,7 +12,7 @@ resource "google_project_service" "compute_api" {
 # 3. Create a Service Account
 resource "google_service_account" "policy_manager_sa" {
   account_id   = "policy-manager-sa"
-  display_name = "Policy Manager for GKE Demos"
+  display_name = "Policy Manager for Argolis demo environment"
 }
 
 # 4. Grant Project-level IAM

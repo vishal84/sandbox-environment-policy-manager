@@ -1,19 +1,19 @@
 # 1. Variables
 variable "project_id" {
-  default = "gemini-ent-agent-demos"
+  default = "mongo-experiments"
 }
 
 variable "region" {
-  default = "us-east4"
+  default = "us-central1"
 }
 
 variable "zone" {
-  default = "us-east4-a"
+  default = "us-central1-f"
 }
 
 variable "instance_duration_hours" {
   type    = number
-  default = 2.5
+  default = 6
 }
 
 locals {
