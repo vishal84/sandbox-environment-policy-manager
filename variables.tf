@@ -13,7 +13,7 @@ variable "zone" {
 
 variable "instance_duration_hours" {
   type    = number
-  default = 6
+  default = 3
 }
 
 locals {
